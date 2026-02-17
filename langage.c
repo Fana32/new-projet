@@ -15,6 +15,7 @@
         somme= somme+x;
         cpt++;
      }
+
      moyenne= somme/cpt;
      printf("La moyenne est:",moyenne);
  }
