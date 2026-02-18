@@ -15,11 +15,13 @@
         somme= somme+x;
         cpt++;
      }
- }
+    }
+    moyenne= somme/cpt;
+     printf("La moyenne est:",moyenne);
+
 if(x%2!=0){
         somme=somme+x;
         cpt++;
-    }
  return 0;
   }
 
